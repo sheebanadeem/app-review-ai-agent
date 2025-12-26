@@ -9,15 +9,15 @@ This project provides tools to:
 
  - Ingest daily app reviews (JSON format)
 
-Extract meaningful user issues and topics from raw text
+ - Extract meaningful user issues and topics from raw text
 
-Normalize semantically similar topics into canonical forms
+ - Normalize semantically similar topics into canonical forms
 
-Maintain a persistent topic registry across runs
+ - Maintain a persistent topic registry across runs
 
-Track topic frequency trends over time
+ - Track topic frequency trends over time
 
-Output structured artifacts for downstream analysis and visualization
+ - Output structured artifacts for downstream analysis and visualization
 
 The system is modular, deterministic by default, and extensible to LLM-based extraction when API access is available.
 
@@ -25,33 +25,33 @@ The system is modular, deterministic by default, and extensible to LLM-based ext
 
 ### Topic Extraction
 
-Rule-based / deterministic fallback extraction
+ - Rule-based / deterministic fallback extraction
 
-Optional LLM-based extraction (OpenAI-compatible)
+ - Optional LLM-based extraction (OpenAI-compatible)
 
-Robust to missing API keys
+ - Robust to missing API keys
 
-Semantic Topic Normalization
+ - Semantic Topic Normalization
 
-Sentence-transformer embeddings
+ - Sentence-transformer embeddings
 
-Cosine similarity–based clustering
+ - Cosine similarity–based clustering
 
-Persistent topic registry for consistency across days
+ - Persistent topic registry for consistency across days
 
-Trend Aggregation
+ - Trend Aggregation
 
-Rolling aggregation of topic frequency
+ - Rolling aggregation of topic frequency
 
-CSV-based output for reproducibility
+ - CSV-based output for reproducibility
 
-Date-aware trend tracking
+ - Date-aware trend tracking
 
 ### Visualization
 
-Lightweight Streamlit dashboard
+ - Lightweight Streamlit dashboard
 
-Interactive trend exploration
+ - Interactive trend exploration
 
 ## System Architecture
 Reviews → Topic Extractor → Topic Normalizer → Trend Aggregator → CSV / Dashboard
@@ -87,12 +87,12 @@ source .venv/bin/activate   # macOS / Linux
 pip install -r requirements.txt
 
 ## Common dependencies include:
-numpy
-pandas
-sentence-transformers
-scikit-learn
-streamlit
-python-dotenv
+ - numpy
+ - pandas
+ - sentence-transformers
+ - scikit-learn
+ - streamlit
+ - python-dotenv
 
 ## Usage
 Command-line execution
@@ -104,13 +104,13 @@ python main.py
 
 This will:
 
-Load daily reviews
+ - Load daily reviews
 
-Extract topics
+ - Extract topics
 
-Normalize them against existing registry
+ - Normalize them against existing registry
 
-Generate a trend report CSV
+ - Generate a trend report CSV
 
 ## Dashboard
 
@@ -121,11 +121,11 @@ streamlit run dashboard.py
 
 The dashboard allows:
 
-Topic-wise trend inspection
+ - Topic-wise trend inspection
 
-Date-based filtering
+ - Date-based filtering
 
-Quick qualitative analysis
+ - Quick qualitative analysis
 
 ## Python API
 from agents.topic_extractor import extract_topics
@@ -140,41 +140,41 @@ update_trends(canonical, date="2024-06-30")
 
 output/trend_report.csv
 
-Rows: canonical topics
+ - Rows: canonical topics
 
-Columns: dates
+ - Columns: dates
 
-Values: frequency counts
+ - Values: frequency counts
 
-memory/topic_registry.json
+ memory/topic_registry.json
 
-Canonical topics
+ - Canonical topics
 
-Embeddings for semantic matching
+ - Embeddings for semantic matching
 
-Persistent across runs
+ - Persistent across runs
 
 ## Design Notes
 
-Topic normalization is semantic, not string-based
+ - Topic normalization is semantic, not string-based
 
-System remains functional without external API keys
+ - System remains functional without external API keys
 
-Registry-based memory ensures temporal consistency
+ - Registry-based memory ensures temporal consistency
 
-Emphasis on reproducibility and explainability
+ - Emphasis on reproducibility and explainability
 
 ## Evaluation Considerations
 
 Possible evaluation metrics include:
 
-Topic consistency across days
+ - Topic consistency across days
 
-Reduction in duplicate topic variants
+ - Reduction in duplicate topic variants
 
-Coverage of user-reported issues
+ - Coverage of user-reported issues
 
-Trend signal stability over time
+ - Trend signal stability over time
 
 ## Testing
 pytest -q
@@ -182,24 +182,25 @@ pytest -q
 
 Tests may include:
 
-Topic normalization correctness
+ - Topic normalization correctness
 
-Registry persistence
+ - Registry persistence
 
-Trend aggregation accuracy
+ - Trend aggregation accuracy
 
 ## Future Extensions 
 
-REST API for real-time ingestion
+ - REST API for real-time ingestion
 
-Sentiment-aware topic trends
+ - Sentiment-aware topic trends
 
-Alerting for rapidly emerging issues
+ - Alerting for rapidly emerging issues
 
-Database-backed persistence layer
+ - Database-backed persistence layer
 
 ## Author
 
-Developed by Sheeba Nadeem.
+ - Developed by Sheeba Nadeem.
+
 
 
