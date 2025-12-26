@@ -7,7 +7,7 @@ Designed for large-scale review analysis, product insight generation, and trend 
 
 This project provides tools to:
 
-Ingest daily app reviews (JSON format)
+ - Ingest daily app reviews (JSON format)
 
 Extract meaningful user issues and topics from raw text
 
@@ -201,4 +201,5 @@ Database-backed persistence layer
 ## Author
 
 Developed by Sheeba Nadeem.
+
 
