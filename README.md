@@ -26,6 +26,7 @@ The system is modular, deterministic by default, and extensible to LLM-based ext
 
 ![Streamlit Dashboard Overview](screenshots/streamlit1.png)
 ![Streamlit Dashboard Overview](screenshots/streamlit2.png)
+### Trend Analysis
 ![Trend Analysis](screenshots/trend_report_csv.png)
 
 
@@ -213,6 +214,7 @@ Tests may include:
 ## Author
 
  - Developed by Sheeba Nadeem.
+
 
 
 
