@@ -20,6 +20,14 @@ This project provides tools to:
  - Output structured artifacts for downstream analysis and visualization
 
 The system is modular, deterministic by default, and extensible to LLM-based extraction when API access is available.
+---
+## Screenshots
+### Streamlit Dashboard
+
+![Streamlit Dashboard Overview](screenshots/streamlit1.png)
+![Streamlit Dashboard Overview](screenshots/streamlit2.png)
+![Streamlit Trend Analysis](screenshots/trend report csv.png)
+
 
 ## Features
 
@@ -205,6 +213,7 @@ Tests may include:
 ## Author
 
  - Developed by Sheeba Nadeem.
+
 
 
 
