@@ -60,6 +60,7 @@ Reviews → Topic Extractor → Topic Normalizer → Trend Aggregator → CSV / 
 Each stage is independently testable and replaceable.
 
 ## Repository Structure
+```text
 .
 ├── agents/
 │   ├── topic_extractor.py
@@ -75,7 +76,7 @@ Each stage is independently testable and replaceable.
 ├── config.py             # Configuration parameters
 ├── requirements.txt
 └── README.md
-
+```
 ## Installation
 ```bash
 git clone https://github.com/sheebanadeem/app-review-ai-agent.git
@@ -204,6 +205,7 @@ Tests may include:
 ## Author
 
  - Developed by Sheeba Nadeem.
+
 
 
 
