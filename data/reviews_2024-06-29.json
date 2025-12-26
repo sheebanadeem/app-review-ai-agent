@@ -1,5 +1,10 @@
 [
-  {"text": "Delivery guy behaved badly"},
-  {"text": "Cold food again, very disappointed"},
-  {"text": "Tracking map not working properly"}
+  {"review_id": 9, "text": "Uploading images causes the app to hang."},
+  {"review_id": 10, "text": "Login screen sometimes shows a blank page."},
+  {"review_id": 11, "text": "Performance is slow on older devices."},
+  {"review_id": 12, "text": "Notifications fail to appear unless the app is opened."},
+  {"review_id": 13, "text": "Battery usage is unusually high."},
+  {"review_id": 14, "text": "App crashes when switching between tabs."},
+  {"review_id": 15, "text": "Search functionality is unreliable."},
+  {"review_id": 16, "text": "UI animations stutter occasionally."}
 ]

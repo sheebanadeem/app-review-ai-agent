@@ -1,5 +1,10 @@
 [
-  {"text": "Delivery partner was rude and arrived very late"},
-  {"text": "Food was cold and packaging was torn"},
-  {"text": "App crashes frequently while tracking order"}
+  {"review_id": 1, "text": "The app crashes every time I try to upload a photo."},
+  {"review_id": 2, "text": "Login takes too long and often times out."},
+  {"review_id": 3, "text": "Notifications are delayed by several hours."},
+  {"review_id": 4, "text": "Battery drain has increased after the last update."},
+  {"review_id": 5, "text": "UI looks good but scrolling feels laggy."},
+  {"review_id": 6, "text": "App freezes randomly during usage."},
+  {"review_id": 7, "text": "Search feature does not return relevant results."},
+  {"review_id": 8, "text": "Too many bugs after the recent update."}
 ]

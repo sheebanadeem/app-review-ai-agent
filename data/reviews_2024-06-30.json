@@ -1,5 +1,10 @@
 [
-  {"text": "Delivery person was impolite"},
-  {"text": "Food arrived cold"},
-  {"text": "Please bring back 10 minute delivery option"}
+  {"review_id": 17, "text": "The app freezes while uploading files."},
+  {"review_id": 18, "text": "Login fails with an unknown error."},
+  {"review_id": 19, "text": "Push notifications stopped working."},
+  {"review_id": 20, "text": "Battery drains very fast after installing the app."},
+  {"review_id": 21, "text": "Scrolling performance is poor."},
+  {"review_id": 22, "text": "App crashes frequently on startup."},
+  {"review_id": 23, "text": "Search results are inaccurate."},
+  {"review_id": 24, "text": "Overall experience has degraded after updates."}
 ]
