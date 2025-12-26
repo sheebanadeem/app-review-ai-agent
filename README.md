@@ -77,6 +77,7 @@ Each stage is independently testable and replaceable.
 └── README.md
 
 ## Installation
+```bash
 git clone https://github.com/sheebanadeem/app-review-ai-agent.git
 cd app-review-ai-agent
 
@@ -85,7 +86,7 @@ source .venv/bin/activate   # macOS / Linux
 .venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
-
+```
 ## Common dependencies include:
  - numpy
  - pandas
@@ -98,9 +99,9 @@ pip install -r requirements.txt
 Command-line execution
 
 Run the full analysis pipeline:
-
+```bash
 python main.py
-
+```
 
 This will:
 
@@ -115,9 +116,9 @@ This will:
 ## Dashboard
 
 Launch the interactive dashboard:
-
+```bash
 streamlit run dashboard.py
-
+```
 
 The dashboard allows:
 
@@ -128,6 +129,7 @@ The dashboard allows:
  - Quick qualitative analysis
 
 ## Python API
+```bash
 from agents.topic_extractor import extract_topics
 from agents.topic_normalizer import normalize_or_create
 from agents.trend_aggregator import update_trends
@@ -135,7 +137,7 @@ from agents.trend_aggregator import update_trends
 topics = extract_topics("App crashes frequently after update")
 canonical = [normalize_or_create(t) for t in topics]S
 update_trends(canonical, date="2024-06-30")
-
+```
 ## Output Artifacts
 
 output/trend_report.csv
@@ -177,8 +179,9 @@ Possible evaluation metrics include:
  - Trend signal stability over time
 
 ## Testing
+```bash
 pytest -q
-
+```
 
 Tests may include:
 
@@ -201,6 +204,7 @@ Tests may include:
 ## Author
 
  - Developed by Sheeba Nadeem.
+
 
 
 
