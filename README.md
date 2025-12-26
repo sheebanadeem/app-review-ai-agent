@@ -1,7 +1,7 @@
 # App Review Topic Intelligence Pipeline
 
-A reproducible AI pipeline for extracting, normalizing, and tracking user-reported issues from app reviews.
-Designed for large-scale review analysis, product insight generation, and trend monitoring workflows.
+A reproducible AI pipeline for extracting, normalizing and tracking user-reported issues from app reviews.
+Designed for large-scale review analysis, product insight generation and trend monitoring workflows.
 
 ## Overview
 
@@ -19,7 +19,7 @@ This project provides tools to:
 
  - Output structured artifacts for downstream analysis and visualization
 
-The system is modular, deterministic by default, and extensible to LLM-based extraction when API access is available.
+The system is modular, deterministic by default and extensible to LLM-based extraction when API access is available.
 ---
 ## Screenshots
 ### Streamlit Dashboard
@@ -214,6 +214,7 @@ Tests may include:
 ## Author
 
  - Developed by Sheeba Nadeem.
+
 
 
 
